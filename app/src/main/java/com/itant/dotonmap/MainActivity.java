@@ -382,7 +382,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         //绘制折线(这样先画连着的，再画开始和结束，分开画，是为了避免颜色错乱，百度地图的bug)
         OverlayOptions ooPolyline1 = new PolylineOptions()
-                .width(10)
+                .width(8)
                 .colorsValues(colors)
                 .points(points);
         mBaiduMap.addOverlay(ooPolyline1);
