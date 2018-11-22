@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_s">8dp</dimen>
+    <dimen name="margin_ss">4dp</dimen>
+    <dimen name="height_split">0.8dp</dimen>
+    <dimen name="height_location">28dp</dimen>
+    <dimen name="width_location">20dp</dimen>
+    <dimen name="height_search">48dp</dimen>
+
+    <dimen name="text_size_p">15sp</dimen>
+    <dimen name="text_size_sub_title">16sp</dimen>
+</resources>

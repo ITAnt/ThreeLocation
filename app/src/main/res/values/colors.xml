@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="black_text">#212121</color>
+
+    <color name="gray_disabled">#4DFFFFFF</color>
+    <color name="gray_button">#505160</color>
+    <color name="gray_tab_bg">#666666</color>
+    <color name="gray_light">#F0F0F0</color>
+    <color name="gray_light_s">#E0E0E0</color>
+    <color name="gray_text">#616161</color>
+    <color name="gray_text_dark">#222222</color>
+    <color name="gray_pressed">#9ccc</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_text_s">#777777</color>
+
+    <color name="blue_alipay">#1b82d2</color>
+    <color name="blue_alipay_dark">#14619d</color>
+    <color name="blue_alipay_icon">#009fe8</color>
+    <color name="blue_dark">#0277BD</color>
+    <color name="blue">#039BE5</color>
+    <color name="blue_light">#33b5e5</color>
+
+    <color name="green_pressed">#118d58</color>
+    <color name="green_search_bg">#3fb179</color>
+    <color name="green_light">#263fb179</color>
+
+    <color name="purple">#ad77e6</color>
+</resources>

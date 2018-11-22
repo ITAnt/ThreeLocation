@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_split"
+        android:background="@color/gray_light_s"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/ll_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="@dimen/margin_s"
+            android:paddingBottom="@dimen/margin_s"
+            android:paddingLeft="@dimen/margin_default"
+            android:paddingRight="@dimen/margin_default"
+            android:background="@drawable/ripple_item">
+            <ImageView
+                android:layout_width="@dimen/width_location"
+                android:layout_height="@dimen/height_location"
+                android:scaleType="fitXY"
+                android:src="@mipmap/location_1"/>
+
+            <TextView
+                android:id="@+id/tv_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_s"
+                android:text="未选择"
+                android:textSize="@dimen/text_size_p"
+                android:textColor="@color/black_text"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_split"
+            android:background="@color/gray_light_s"/>
+
+        <LinearLayout
+            android:id="@+id/ll_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="@dimen/margin_s"
+            android:paddingBottom="@dimen/margin_s"
+            android:paddingLeft="@dimen/margin_default"
+            android:paddingRight="@dimen/margin_default"
+            android:background="@drawable/ripple_item">
+            <ImageView
+                android:layout_width="@dimen/width_location"
+                android:layout_height="@dimen/height_location"
+                android:scaleType="fitXY"
+                android:src="@mipmap/location_2"/>
+
+            <TextView
+                android:id="@+id/tv_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_s"
+                android:text="未选择"
+                android:textSize="@dimen/text_size_p"
+                android:textColor="@color/black_text"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_split"
+            android:background="@color/gray_light_s"/>
+
+        <LinearLayout
+            android:id="@+id/ll_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="@dimen/margin_s"
+            android:paddingBottom="@dimen/margin_s"
+            android:paddingLeft="@dimen/margin_default"
+            android:paddingRight="@dimen/margin_default"
+            android:background="@drawable/ripple_item">
+            <ImageView
+                android:layout_width="@dimen/width_location"
+                android:layout_height="@dimen/height_location"
+                android:scaleType="fitXY"
+                android:src="@mipmap/location_3"/>
+
+            <TextView
+                android:id="@+id/tv_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_s"
+                android:text="未选择"
+                android:textSize="@dimen/text_size_p"
+                android:textColor="@color/black_text"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_split"
+        android:background="@color/gray_light_s"/>
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/mv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
+</LinearLayout>

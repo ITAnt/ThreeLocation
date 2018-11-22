@@ -1,0 +1,14 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--导航栏不透明-->
+        <item name="android:windowTranslucentNavigation">false</item>
+        <!--导航栏为黑色-->
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+</resources>
